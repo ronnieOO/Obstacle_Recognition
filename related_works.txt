@@ -1,0 +1,41 @@
+# Related works
+## paper refereces
+The avoidance of obstacles for blind people has traditionally centered around the use of electronic travel aids (ETA), as documented in previous research [7–9]. 
+The ETA approach for the blind requires the use of portable-wearable devices containing many electronic sensors that are expensive to manufacture.
+    
+Recently, a study proposed a new navigation aid for the blind that was inexpensive to manufacture and easy to use. 
+The study described a problem encountered by the blind in that they could not easily detect obstacles above their waists or a few feet away [10]. 
+Therefore, a navigation aid system for the blind was suggested that could detect the surrounding environment via several types of sensors. 
+This system consisted of sonar sensors situated on the shoulder for detecting obstacles in front of the blind person, a vibrator on an arm for vibro-tactile feedback, and an ultrasonic cane for detecting obstacles on the ground. Detection of the obstacles was controlled by a central micro-controller that connected all the components. The system allowed a person to navigate a 100 m route with some obstacles; however, the system needed a very clean testing environment with little noise. 
+Furthermore, it could only detect the existence of an obstacle, but it could not identify the type of obstacle.
+    
+Later, an obstacle recognition system using radio-frequency identification (RFID) technology was proposed [11]. 
+The system proposed a smart cane outfitted with a Braille display handle. 
+This smart cane could read information provided by RFID tags that were installed in various places. 
+The cane would then analyze the information and display it on the Braille display through the control of electro-mechanical switches. 
+As a result, blind people were able to recognize obstacles via the Braille display. 
+Ultimately, it was determined that the proposed system had several limitations for its adoption in the real world. 
+First, the system did not discriminate between the types of obstacles a blind person could encounter. 
+Additionally, the installation of RFID tags on every surrounding surface was virtually impossible. 
+Even if the installation of RFID tags everywhere was possible to achieve, it would entail a massive cost, as determined by the cost analysis conducted during the study. 
+    
+    
+## Research
+1. THEIA 
+   
+- LoughBorough University, Industrial Design and Technology 학과
+ :https://www.lboro.ac.uk/news-events/news/2020/july/theia-autonomous-way-finding-device-designed/
+- 2020년 James Dyson Awards 수상
+- 목적 
+* 시각 장애인의 보행 보조를 위한 Handheld device (안내견 대체)
+- 기반 기술
+* 자율 주행 차량 기술에서 영감을 얻음
+* 라이다센서(빛을 이용한 공간 감지)와 카메라를 조합해서 사용자 주위의 3차원이미지 생성
+* 고성능 on-board 프로세서는 1.4m/s 정도의 이동속도 구간에서도 최적의 경로를 계산할 수 있도록 해줌
+* 이와 같은 기능을 시각 장애인들에게 제공하기 위해 "선도" 기능 적용을 고려
+* CMG(Control Moment Gyroscope)를 이용해서 사용자 앞의 공간에 대한 피드백을 고려.
+- 현재 상황
+* 아직 기술 개발 진행 중
+- 정리
+* Handheld의 제약을 어떻게 극복할 것인지 아직 구체적인 방안은 없어 보임(손으로 들고 다니기 위해서는 적절하게 가볍고 작아야 함)
+* prototype에서 보여주는 보드 및 기타 센서 장비들, 전원 및 처리 장치들의 소형화 필요
